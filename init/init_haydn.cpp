@@ -86,18 +86,21 @@ void vendor_load_properties() {
         device = "haydn";
         mod_device = "haydn_cn";
         property_override("persist.vendor.camera.main_sensor", "imx686");
+	property_override("ro.infinity.camera", "64mp+8mp+5mp & 20mp");
     } else if (region == "IN") {
         // India variant  HM2 108MP
         model = "M2012K11I";
         device = "haydnin";
         mod_device = "haydn_in_global";
         property_override("persist.vendor.camera.main_sensor", "hm2");
+	property_override("ro.infinity.camera", "108mp+8mp+5mp & 20mp");
     } else {
         // Global variant  HM2 108MP
         model = "M2012K11G";
         device = "haydn";
         mod_device = "haydn_global";
         property_override("persist.vendor.camera.main_sensor", "hm2");
+	property_override("ro.infinity.camera", "108mp+8mp+5mp & 20mp");
     }
 
     set_ro_product_prop("device", device);
