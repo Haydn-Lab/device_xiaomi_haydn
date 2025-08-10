@@ -1,7 +1,7 @@
-git clone https://github.com/Infinity-X-Devices/device_xiaomi_sm8350-common -b 16 device/xiaomi/sm8350-common
+git clone https://github.com/Haydn-Lab/device_xiaomi_sm8350-common -b 16 device/xiaomi/sm8350-common
 git clone --depth=1 https://github.com/Haydn-Lab/kernel_xiaomi_sm8350 -b FarFromStock kernel/xiaomi/sm8350
-git clone --depth=1 https://github.com/Infinity-X-Devices/vendor_xiaomi_haydn -b 16 vendor/xiaomi/haydn
-git clone --depth=1 https://github.com/Infinity-X-Devices/vendor_xiaomi_sm8350-common -b 16 vendor/xiaomi/sm8350-common
+git clone --depth=1 https://github.com/Haydn-lab/vendor_xiaomi_haydn -b 16 vendor/xiaomi/haydn
+git clone --depth=1 https://github.com/Haydn-Lab/vendor_xiaomi_sm8350-common -b 16 vendor/xiaomi/sm8350-common
 git clone --depth=1 https://gitlab.com/Hexdare/vendor_xiaomi_haydn-firmware.git -b fourteen vendor/xiaomi/haydn-firmware
 git clone --depth=1 https://gitlab.com/Hexdare/haydn-miuicamera -b fifteen-leica vendor/xiaomi/haydn-miuicamera
 git clone --depth=1 https://github.com/Haydn-Lab/hardware_dolby -b 15 hardware/dolby
