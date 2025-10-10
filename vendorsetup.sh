@@ -1,5 +1,5 @@
-git clone https://github.com/Haydn-Lab/device_xiaomi_sm8350-common -b 16 device/xiaomi/sm8350-common
-git clone --depth=1 https://github.com/Haydn-Lab/kernel_xiaomi_sm8350 -b FarFromStock kernel/xiaomi/sm8350
+git clone https://github.com/Haydn-Lab/device_xiaomi_sm8350-common -b Inf device/xiaomi/sm8350-common
+git clone --depth=1 https://github.com/Haydn-Lab/kernel_xiaomi_haydn -b lineage-22.2 kernel/xiaomi/sm8350
 git clone --depth=1 https://github.com/Haydn-lab/vendor_xiaomi_haydn -b 16 vendor/xiaomi/haydn
 git clone --depth=1 https://github.com/Haydn-Lab/vendor_xiaomi_sm8350-common -b 16 vendor/xiaomi/sm8350-common
 git clone --depth=1 https://gitlab.com/Hexdare/vendor_xiaomi_haydn-firmware.git -b fourteen vendor/xiaomi/haydn-firmware
