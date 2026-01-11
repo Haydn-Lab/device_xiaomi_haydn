@@ -7,6 +7,7 @@ git clone --depth=1 https://gitlab.com/Hexdare/haydn-miuicamera -b fifteen-leica
 git clone --depth=1 https://github.com/Haydn-Lab/hardware_dolby -b 16 hardware/dolby
 git clone --depth=1 https://github.com/Chaitanyakm/vendor_bcr -b main vendor/bcr
 git clone --depth=1 https://github.com/LineageOS/android_hardware_sony_timekeep -b lineage-22.2 hardware/sony/timekeep
+git clone https://github.com/Hexdare/packages_apps_GameBar.git packages/apps/GameBar -b main
 rm -rf hardware/xiaomi && git clone --depth=1 https://github.com/Evolution-X-Devices/hardware_xiaomi.git -b bka hardware/xiaomi
 rm -rf hardware/xiaomi/DSP*
 rm -rf hardware/xiaomi/dolby

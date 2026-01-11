@@ -66,3 +66,6 @@ $(call soong_config_set_bool,camera,override_format_from_reserved,true)
 
 # Call thr Bcr setup
 $(call inherit-product, vendor/bcr/bcr.mk)
+
+# GameBar Performance Overlay
+$(call inherit-product, packages/apps/GameBar/gamebar.mk)
