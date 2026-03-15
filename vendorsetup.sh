@@ -8,7 +8,7 @@ git clone --depth=1 https://github.com/Haydn-Lab/hardware_dolby -b 16 hardware/d
 git clone --depth=1 https://github.com/Chaitanyakm/vendor_bcr -b main vendor/bcr
 git clone https://github.com/Hexdare/packages_apps_GameBar.git packages/apps/GameBar -b main
 git clone https://github.com/swiitch-OFF-Lab/packages_apps_DolbyUI -b 16.0 packages/apps/DolbyUI
-rm -rf hardware/xiaomi && git clone --depth=1 https://github.com/Evolution-X-Devices/hardware_xiaomi.git -b bka hardware/xiaomi
+rm -rf hardware/xiaomi && git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-23.2 hardware/xiaomi
 rm -rf hardware/xiaomi/DSP*
 rm -rf hardware/xiaomi/dolby
 rm -rf vendor/xiaomi/haydn-miuicamera/mlkitbarcode
